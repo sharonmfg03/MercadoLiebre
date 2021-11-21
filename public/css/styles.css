@@ -362,6 +362,16 @@ main form .botones button {
         flex-wrap: wrap;
         justify-content: space-around;
     }
+    
+    footer .all-foot{
+        
+        display: flex;
+        margin: 20px;
+        
+    }
+    footer section .copyright{
+        width: 50%;
+    }
     footer div.icono:hover{
        color: #0c64ec;
     }
