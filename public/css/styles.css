@@ -29,7 +29,7 @@ div.top-header{
     align-items: center;
 }
 
-header div.logo{/*Saque la medida de html, le aplique porcentaje y lo centre*/
+header div.logo{
     width: 50%;
     margin: auto;
     padding: 4%;
@@ -187,7 +187,7 @@ main section article:hover{
 main section article:hover .description{
     display: block;
 }
-main div button:hover{
+main .botones button:hover{
     background-color: #0022AA;
 }
 
@@ -226,7 +226,6 @@ main{
 }
 
 
-/*Register*/
 main form div{
     display: flex;
     flex-direction: column;
@@ -259,7 +258,7 @@ main form .botones button {
     width: 15%;
 }
 
-@media (min-width: 361px){/*Tablet*/
+@media (min-width: 361px){
     .copy-header{
         max-width: 350px;
         text-align: right;
@@ -305,7 +304,7 @@ main form .botones button {
 
 }
 
-@media (min-width: 769px){/*desktop*/
+@media (min-width: 769px){
     main section article i{
         display: block;
     }
