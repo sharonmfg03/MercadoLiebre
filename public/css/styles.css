@@ -11,6 +11,11 @@ body{
 
 header{
     background-color:#EAC926 ;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+
 }
 
 h3{
@@ -43,7 +48,7 @@ header div.logo{
 }
 
 .form{
-    width: 50%;
+   
     display: flex;
     justify-content: start;
     align-items: center;
@@ -71,7 +76,11 @@ header nav ul li a{
     font-size: 15px;
 }
 
-
+header .top-header form .buscador {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 header .form .input{
     background-color: #FFF;
     border: 1px solid #000;
@@ -81,7 +90,7 @@ header .form .input{
     padding: 2px;
 }
 
-header .form .submit{
+header  .form .submit{
     background-color: #FFF;
     border: 1px solid #000;
     color: #666;
@@ -363,10 +372,12 @@ main form .botones button {
     }
     
     footer .all-foot{
-        
-        display: flex;
-        margin: 20px;
-        
+           display: flex;   
+    }
+    .all-foot {
+        text-align: center;
+        line-height: 28px;
+        padding: 5%;
     }
     footer section .copyright{
         width: 50%;
