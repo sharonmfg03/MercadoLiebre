@@ -11,7 +11,7 @@ body{
 
 header{
     background-color:#EAC926 ;
-    position: fixed;
+   
     top: 0;
     width: 100%;
     z-index: 10;
@@ -47,10 +47,11 @@ header div.logo{
     margin: 0%;
 }
 
-.form{
-   
+main .form{
+        width: 100%;
+margin: 4px;
     display: flex;
-    justify-content: start;
+    justify-content:center;
     align-items: center;
 }
 
